@@ -11,7 +11,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()  # Initialize the text to speech engine
-newsapi = "df6f66ddcf834a53a4ef104fb32e111c"
+newsapi = ""
 
 
 def speak_old(text):
