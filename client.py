@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-proj-WxS17ehGk2PnwmzCHcDwT3BlbkFJFMj6bYTk9jG1bqZaFTcj",  # 🔒 Make sure to keep this secret in production
+    api_key="",  # 🔒 Make sure to keep this secret in production
 )
 
 response = client.chat.completions.create(
