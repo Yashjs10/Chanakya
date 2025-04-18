@@ -9,7 +9,7 @@ import os
 import re
 
 recognizer = sr.Recognizer()
-newsapi = "df6f66ddcf834a53a4ef104fb32e111c"
+newsapi = ""
 
 engine = pyttsx3.init()
 # Set male voice
@@ -22,7 +22,7 @@ engine.setProperty('rate', 160)  # Optional: slow down speech a bit
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key="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"
+    api_key=""
 )
 
 def speak(text):
