@@ -1,0 +1,10 @@
+streamlit
+speechrecognition
+flask
+speechrecognition
+pyaudio
+openai
+requests
+pydub
+numpy
+pandas
